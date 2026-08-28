@@ -3,6 +3,7 @@ name: Compilar APK Flet
 on:
   push:
     branches: [ principal ]
+  workflow_dispatch:
 
 jobs:
   build:
