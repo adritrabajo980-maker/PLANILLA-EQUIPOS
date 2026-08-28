@@ -37,7 +37,7 @@ jobs:
 
       - name: Compilar APK de Android
         run: |
-          flet build apk --module-name PLA_SALIDA_DE_EQUIPOS
+          flet build apk --module-name PLA_SALIDA_DE_EQUIPOS --yes
 
       - name: Subir APK generado
         uses: actions/upload-artifact@v4
